@@ -1,0 +1,3 @@
+touch .gitignore to create the ignore file for git when added
+
+git checkout branchName to switch to that branch
