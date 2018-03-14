@@ -5,3 +5,5 @@ git checkout branchName to switch to that branch
 you need to git add .
 then git commit -m "commit message"
 then git push
+
+use git branch -D "branch name" to delete branch
