@@ -1,3 +1,7 @@
 touch .gitignore to create the ignore file for git when added
 
 git checkout branchName to switch to that branch
+
+you need to git add .
+then git commit -m "commit message"
+then git push
