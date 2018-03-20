@@ -1,11 +1,48 @@
-body {
-	background-color: blue;
+
+
+.gridpage{
+	display: grid;
+	grid-template-rows: 100px 200px;
+	grid-template-columns: 1fr;
+	grid-template-areas: 
+	"header"
+	"body";
+
+}
+.header{
+	
+	grid-area: header;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 20% 70% 10%;
+	grid-template-areas: 
+	"logo search searchB"
+
+
+
+	
+}
+.body{
+	grid-area: body;
+	background-color: red;
 }
 
 
-button {
-	background-color: blue;
-	color: red;
 
+.search{ /*search box*/
+	grid-area: search
+	background-color:green;
+	height: 30%;
+	margin: auto 0;
+}
+.searchB{ /*search button*/
+	grid-area: searchB
+	background-color:pink;
+	height:30%;
+	margin: auto 0;
 
 }
+.logo{
+	grid-area: logo
+}
+
