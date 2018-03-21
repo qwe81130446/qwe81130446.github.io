@@ -1,8 +1,13 @@
 
+*{
+	margin:0;
+
+}
+
 
 .gridpage{
 	display: grid;
-	grid-template-rows: 100px 200px;
+	grid-template-rows: 100px 1000px;
 	grid-template-columns: 1fr;
 	grid-template-areas: 
 	"header"
@@ -25,6 +30,7 @@
 .body{
 	grid-area: body;
 	background-color: red;
+	position: relative;
 }
 
 
