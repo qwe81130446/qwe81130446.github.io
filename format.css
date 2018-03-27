@@ -1,8 +1,11 @@
 
+
+
 *{
 	margin:0;
 
 }
+
 
 
 .gridpage{
@@ -30,7 +33,6 @@
 .body{
 	grid-area: body;
 	background-color: red;
-	position: relative;
 }
 
 

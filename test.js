@@ -1,12 +1,12 @@
-function myFunction(){
+/*function myFunction(){
 
 	//window.location.href = "https://www.dropbox.com/s/rfu734rkrksyh1f/phoneself.exe?dl=1";
 	alert("Downloading Corn!!!")
 }
-window.onload = function(){
-	window.scrollTo(0,0)
+//window.onload = function(){
+	//window.scrollTo(0,0)
 
-}
+//}
 
 window.onscroll = function(ev) {
     if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 5) {
@@ -21,6 +21,25 @@ function extendBody(){
 	var constant = 20;
 	var body = document.getElementById("bodyID").offsetHeight;
 	document.getElementById("bodyID").style.height = body + constant 
-
-
 }
+
+function changed(ev){
+
+	document.getElementById("bodyID").innerHTML = ev.text
+}
+*/
+
+$(document).ready(function(){
+	$(".searchB").on("click", function(){alert("searchB clicked")})
+
+
+
+
+
+
+
+
+
+
+
+});
